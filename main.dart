@@ -15,7 +15,7 @@ void main() {
       print(myColors[i].toString().toUpperCase());
     } else {
       print(
-          "Sorry This color does not contain a or b on the first character and it contains #${myColors[i].length} of characters");
+          "Sorry This color does not start by (a or b)  and it contains #${myColors[i].length}  characters");
     }
   }
 }
